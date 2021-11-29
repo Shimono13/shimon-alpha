@@ -2,56 +2,59 @@ body{
     margin: 0 0 0 0;
 }
 header{
-    height: 145px;    
+    height: 10%;    
 }
 a{
     text-decoration: none;
 }
 .prima-nav{
     background-color: lightgrey;
-    height: 35px;
+    height: 1%;
+    display: flex;
+    justify-content: space-between;
 }
 .link-prima-nav{
     display: inline-block;
     padding-left: 30px;
     color: black;
     text-decoration: none;
-    margin: 5px 78px 5px 78px; 
+    margin: 5px 5% 5px 5%;
 }
 .img-toto-shop{
     display: inline-block;
-    padding-left: 200px;
+    height: 1%;
+    width: 5%;
 }
 .header-title{
-    display: inline-block;
-    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 55px;
     width: 100%;
-}
-.form-searchbar{
-    display: inline-block;
-    padding: 6px 200px 5px 100px;
 }
 .search-btn{
     background-color: red;
 }
 .searchbar{
+    display: inline-block;
+    margin: 2%;
     width: 400px;
     height: 40px;
 }
 .link-seconda-nav{
     display: inline-block;
-    padding-left: 70px;
     color: black;
-    text-decoration: none;
 }
 .seconda-nav{
     background-color: #333233;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .dropdown {
     position: relative;
     display: inline-block;
-    margin: 5px 75px 5px 75px;
+    margin: 5px 5% 5px 5%;
 }
 .dropbtn {
     background-color: #333233;
@@ -147,5 +150,4 @@ img{
 .prezzo-prodotto{
     color: black;
     font-size: 40px;
-    
 }
